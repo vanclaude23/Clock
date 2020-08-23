@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: azure;
+}
+
+.clock {
+  height: 500px;
+  width: 500px;
+  background-color: #5f96c9;
+  border-radius: 100%;
+  border: 5px solid #b8c6d4;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.twelve {
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: #b8c6d4;
+  top: 0;
+  bottom: 0;
+  right: 250px;
+  margin: 0 auto;
+}
+
+.three {
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background: #b8c6d4;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto 0;
+}
+
+.six {
+  position: absolute;
+  width: 3px;
+  height: 15px;
+  background: #b8c6d4;
+  top: 485px;
+  bottom: 0;
+  right: 250px;
+  margin: 0 auto;
+}
+
+.nine {
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background: #b8c6d4;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto 0;
+}
+
+.center {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #b8c6d4;
+  border-radius: 100%;
+}
+
+#seconds {
+  position: absolute;
+  width: 2px;
+  height: 160px;
+  background: #b8c6d4;
+  top: 0;
+  bottom: 160px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform-origin: bottom;
+}
+
+#minutes {
+  position: absolute;
+  width: 3px;
+  height: 200px;
+  background: #b8c6d4;
+  top: 0;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform-origin: bottom;
+}
+
+#hours {
+  position: absolute;
+  width: 5px;
+  height: 100px;
+  background: #b8c6d4;
+  top: 0;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform-origin: bottom;
+}
